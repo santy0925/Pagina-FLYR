@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  header {
+    background: #0a0a23;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo span {
+    color: #2cd2d2;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .hero {
+    background: linear-gradient(to right, #2cd2d2, #0a0a23);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .btn {
+    background: white;
+    color: #0a0a23;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .services, .team, .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .card {
+    background: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 300px;
+  }
+  form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  form input, form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 0.75rem;
+    background: #0a0a23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  footer {
+    background: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .cabinas {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fafafa;
+  }
+  
+  .cabina-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .cabina-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    max-width: 320px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .cabina-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cabina-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    height: 180px;
+  }

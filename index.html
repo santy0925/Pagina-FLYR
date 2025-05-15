@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Newshore | A FLYR Company</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-    
+  <header>
+    <div class="logo">Newshore <span>by FLYR</span></div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Impulsando el futuro del comercio digital en aerolíneas</h1>
+    <p>Expertos en soluciones de reservas y retail aéreo, ahora parte de FLYR.</p>
+    <a href="#servicios" class="btn">Descubre más</a>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Booking Engine</h3>
+        <p>Desarrollamos plataformas de reservas eficientes y escalables.</p>
+      </div>
+      <div class="card">
+        <h3>Distribución Directa</h3>
+        <p>Soluciones para venta directa sin intermediarios.</p>
+      </div>
+      <div class="card">
+        <h3>Integración FLYR</h3>
+        <p>Conectamos tu oferta con inteligencia artificial de FLYR.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cabinas" class="cabinas">
+    <h2>Tipos de Cabina - Avianca</h2>
+    <div id="cabinaGrid" class="cabina-grid"></div>
+  </section>
+
+  <section id="equipo" class="team">
+    <h2>Nuestro Equipo</h2>
+    <p>Con presencia en España, Colombia y Filipinas, nuestro equipo es global y multidisciplinario.</p>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <form id="form">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu email" required />
+      <textarea placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Newshore by FLYR. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
